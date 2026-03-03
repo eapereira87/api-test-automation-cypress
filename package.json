@@ -1,10 +1,13 @@
 {
   "name": "api-test-automation-cypress",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Testes automatizados de API utilizando Cypress",
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "test:smoke": "cypress run --spec \"cypress/e2e/**/*.smoke.cy.js\"",
+    "test:regression": "cypress run --spec \"cypress/e2e/**/*.regression.cy.js\"",
+    "test:all": "cypress run --spec \"cypress/e2e/**/*.cy.js\""
   },
   "devDependencies": {
     "cypress": "^13.14.2"
