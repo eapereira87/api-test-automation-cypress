@@ -1,6 +1,6 @@
 {
   "name": "api-test-automation-cypress",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Testes automatizados de API utilizando Cypress",
   "scripts": {
     "cy:open": "cypress open",
@@ -10,6 +10,7 @@
     "test:all": "cypress run --spec \"cypress/e2e/**/*.cy.js\""
   },
   "devDependencies": {
+    "chai-json-schema": "^1.5.1",
     "cypress": "^13.14.2"
   }
 }

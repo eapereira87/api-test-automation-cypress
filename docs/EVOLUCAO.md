@@ -8,3 +8,8 @@
 - Separação de suites (smoke e regression)
 - Ajuste no pipeline para rodar apenas smoke
 - Organização da estrutura de testes
+
+## v1.2.0
+- Camada de service (client + services)
+- Validação de contrato com schema (chai-json-schema)
+- Testes mais limpos e reutilizáveis
