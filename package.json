@@ -1,0 +1,12 @@
+{
+  "name": "api-test-automation-cypress",
+  "version": "1.0.0",
+  "description": "Testes automatizados de API utilizando Cypress",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.14.2"
+  }
+}
